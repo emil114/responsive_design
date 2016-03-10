@@ -1,0 +1,279 @@
+/* Global CSS */
+
+body {background-color:#eee; padding:0; margin:0;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+
+/* Top area CSS */
+
+.navbar {
+      width: 100%;
+      height: 90px;
+      background-color: #373c3f;
+      float:left;
+      border: none;
+      margin-bottom: 0px;
+      position: relative;
+
+}
+
+.navbar-inverse ul li{
+   color:#ebebeb;
+   list-style: none;
+   margin-left: 53px;
+   display:inline-block;
+   margin-top: 20px;
+    
+}
+
+/* Banner area CSS */
+.banner h2 { color: #ffffff;
+margin-top: 206px;
+margin-left: 82px;
+
+}
+.banner h3 {
+    color: #a9d7e0;
+    margin-left: 82px;
+}
+#banner_click {   }
+.banner {
+    width: 100%;
+    float: left;
+    height: 578px;
+    background: -moz-linear-gradient(53deg, rgba(25,180,198,1) 0%, rgba(0,128,128,1) 100%);/* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(25,180,198,1)), color-stop(100%, rgba(0,128,128,1)));/* safari4+,chrome */
+    background: -webkit-linear-gradient(53deg, rgba(25,180,198,1) 0%, rgba(0,128,128,1) 100%);/* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(53deg, rgba(25,180,198,1) 0%, rgba(0,128,128,1) 100%);/* opera 11.10+ */
+    background: -ms-linear-gradient(53deg, rgba(25,180,198,1) 0%, rgba(0,128,128,1) 100%);/* ie10+ */
+    background: linear-gradient(37deg, rgba(25,180,198,1) 0%, rgba(0,128,128,1) 100%);/* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#19b4c6',GradientType=0 );/* ie6-9 */
+}
+
+/* Info area CSS */
+
+.info_box { 
+
+}
+.info_left {
+ float:left;
+ width: 80%;
+ color:#fff;
+ height: 230px;/*Firebox */
+ display: -moz-box;
+ -moz-box-pack:center;
+ -moz-box-align:center;/* safari, and chrome */
+ display: -webkit-box;
+ -webkit-box-pack:center;
+ -webkit-box-align:center;/*W3C*/
+ display: box;
+ box-pack:center;
+ box-align:center;
+ background-color: #2A2828;
+ line-height: 200px;
+}
+
+.info_left h3{
+    color: #9383a1;
+    margin-left: -190px;
+}
+
+.info_right {
+ float:left;
+ width: 20%;
+ color:#fff;
+ height: 230px;
+ /*Firebox */
+ display: -moz-box;
+ -moz-box-pack:center;
+ -moz-box-align:center;
+ /* safari, and chrome */
+ display: -webkit-box;
+ -webkit-box-pack:center;
+ -webkit-box-align:center;
+ /*W3C*/
+ display: box;
+ box-pack:center;
+ box-align:center;
+ background-color: #BA3282;
+}
+
+/* Three_box area CSS */
+
+.three_box {
+  
+  
+}
+
+.three_left {
+ width: 33.33333333333%;
+    height: 294px;
+    background: #5b0fa1;
+    float: left;
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-pack:center;
+    box-align:center
+    
+    
+}
+.three_mid { 
+    width: 33.33333333333%;
+    height: 294px;
+    background: blue;
+    background-image: url("../image/2.jpg") ;
+    background-size: 100% 100%;
+    float: left;
+    
+}
+.three_mid_img { 
+    width: 33.33333333333%;
+    height: 294px;
+    background: blue;
+    background-image: url("../image/2.jpg") ;
+    background-size: 100% 100%;
+    float: left;
+}
+
+
+
+.three_right { 
+    width: 33.33333333333%;
+    height: 294px;
+    background: red;
+    background-image: url("../image/3.jpg") ;
+    background-size: 100% 100%;
+    float: left;
+    
+}
+
+/* Footer area CSS */
+
+.footer {
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-color: #EBEBEB ;
+}
+.footer_text {
+    padding: 50px;
+}
+
+.footer h2 {
+    color: #098FAA;
+}
+.footer p {  
+line-height:2;
+}
+
+.footer_text_left{
+  
+    width: 45%;
+    float: left;
+    
+   
+
+}
+
+.footer_text_right{
+    width: 45%;
+    float: left;
+    padding-left: 10%;
+}
+
+
+/* Media Query section */ 
+@media all and (max-width: 640px) {
+   
+    .top  {/* width: 320px; */}
+   
+    #menu {  }
+    nav#desktop_menu {   }
+
+    .banner { 
+    height: 360px;
+    }
+    .banner_toptext {  }
+    .banner h2 { 
+     
+     font-size: 25px;
+    }
+    .banner h3 { 
+    
+    font-size: 12px;
+    }
+    #banner_click {  }
+    
+    .info_box, .info_left, .info_right { 
+    }
+    .info_left {  
+    height: 160px;    
+    font-size: 20px;
+    width: 70%;
+    }
+    .info_left h3{
+        
+      font-size: 14px;
+      margin-left: -42px;
+    }
+    .info_right {  
+    height: 160px;
+    width: 30%;
+    }
+    
+    .three_left { 
+     width: 100%;
+     height: 550px;
+    
+    }
+    .three_mid {  
+   height: 550px;
+   width: 100%;
+    
+    }
+    .three_right { 
+   height: 550px;
+   width: 100%;
+    
+    }
+    
+    .footer{
+       height: 100%; 
+        
+    }
+    
+    .footer h2{
+      margin-left: 11%;  
+        
+    }
+    .footer_text {  
+    
+    }
+    .footer_text_left{
+       height: 100%;
+       width: 75%;
+       margin-left: 11%;
+       padding-top: 4px;
+      
+    }
+    
+    .footer_text_right{
+       
+        height: 100%;
+        width: 75%;
+        margin-top: 31px;
+        margin-left: 1%;
+        
+    }
+    
+    
+    
+}
+
